@@ -1,9 +1,9 @@
-let money = 0, 
-        income = 1,
-        addExpenses = 0,
-        deposit = 0,
-        mission = 0,
-        period = 0;
+let money = 300, 
+        income = 1000,
+        addExpenses = 200,
+        deposit = 5000,
+        mission = 1,
+        period = 3;
 
 alert('Любое сообщение');
 console.log("Here is the message");
