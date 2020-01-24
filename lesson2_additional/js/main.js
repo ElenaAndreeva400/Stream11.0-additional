@@ -1,7 +1,9 @@
 let money = 266219;
 
-
-result = money.toString().split('').map(function(e){return parseInt(e)}).reduce(function(a,b){return a*b}); 
+let result = eval(money.toString().split('').join('*'));
+console.log(result);
+// или
+let result = money.toString().split('').map(function(e){return parseInt(e)}).reduce(function(a,b){return a*b}); 
 console.log(result);
 
 
