@@ -25,22 +25,8 @@ console.log(lang['ru']);
 console.log(lang['en']);
 
 
-// let namePerson = "Артём";
-// namePerson = namePerson ? "Директор" : "не директор";
-// console.log(namePerson);
-
-// namePerson = "Максим";
-// namePerson = namePerson ? "Учитель" : "это не наш Максим";
-// console.log(namePerson);
-
-// namePerson = prompt("Введите Ваше имя", "Шурик");
-// namePerson = namePerson ? "Дорогой студент" : "ты еще не зачислен в наши ряды";
-// console.log(namePerson);
-
-
-
 let namePerson = "Артём";
-let person = namePerson ? "Директор" : "не директор";
+namePerson = namePerson ? "Директор" : "не директор";
 console.log(namePerson);
 
 namePerson = "Максим";
@@ -50,4 +36,5 @@ console.log(namePerson);
 namePerson = prompt("Введите Ваше имя", "Шурик");
 namePerson = namePerson ? "Дорогой студент" : "ты еще не зачислен в наши ряды";
 console.log(namePerson);
+
 
