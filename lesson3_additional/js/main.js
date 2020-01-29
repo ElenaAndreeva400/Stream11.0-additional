@@ -25,16 +25,15 @@ console.log(lang['ru']);
 console.log(lang['en']);
 
 
-let namePerson = "Артём";
-namePerson = namePerson ? "Директор" : "не директор";
-console.log(namePerson);
+// let firstName = "";
+// let secondName = "Максим";
 
-namePerson = "Максим";
-namePerson = namePerson ? "Учитель" : "это не наш Максим";
-console.log(namePerson);
+let firstName = "Артем";
+let secondName = "";
 
-namePerson = prompt("Введите Ваше имя", "Шурик");
-namePerson = namePerson ? "Дорогой студент" : "ты еще не зачислен в наши ряды";
-console.log(namePerson);
+// let firstName = "";
+// let secondName = "";
 
+namePerson = firstName ? "Директор" : secondName ? "Учитель" : "студент";
+console.log(namePerson);
 
