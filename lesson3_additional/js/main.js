@@ -1,3 +1,5 @@
+'use strict'; 
+
 let lang = 'ru';
 
 if (lang === 'ru') {
@@ -5,7 +7,7 @@ if (lang === 'ru') {
 } else if (lang === "en") {
   console.log('Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday');
 } else {
-  console.log('Программа знает только русский и английский.')
+  console.log('Программа знает только русский и английский.');
 }
 
 switch (lang) {
@@ -21,8 +23,8 @@ switch (lang) {
 
 lang = {'ru': 'понельник, вторник, среда, четверг, пятница, суббота, воскресение', 
   'en': 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday'};
-console.log(lang['ru']);
-console.log(lang['en']);
+console.log('На русском: ', lang['.ru']);
+console.log('На английском: ', lang['.en']);
 
 
 // let firstName = "";
@@ -34,6 +36,6 @@ let secondName = "";
 // let firstName = "";
 // let secondName = "";
 
-namePerson = firstName ? "Директор" : secondName ? "Учитель" : "студент";
+let namePerson = firstName ? "Директор" : secondName ? "Учитель" : "студент";
 console.log(namePerson);
 
