@@ -1,3 +1,5 @@
+'use strict';
+
 const define = function(a) {
   if (typeof a !== "string") {
     console.log("Вы передали не строку.")
