@@ -27,15 +27,9 @@ console.log('На русском: ', lang['.ru']);
 console.log('На английском: ', lang['.en']);
 
 
-// let firstName = "";
-// let secondName = "Максим";
+// let namePerson = "Артем";
+let namePerson = "Максим";
+// let namePerson = "Володя";
 
-let firstName = "Артем";
-let secondName = "";
-
-// let firstName = "";
-// let secondName = "";
-
-let namePerson = firstName ? "Директор" : secondName ? "Учитель" : "студент";
+namePerson = (namePerson === "Артём") ? "Директор" : (namePerson === "Максим") ? "Учитель" : "студент";
 console.log(namePerson);
-
