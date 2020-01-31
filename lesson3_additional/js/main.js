@@ -21,8 +21,8 @@ switch (lang) {
     console.log('Такой язык не предусмотрен программой.');  
 }
 
-lang = {'ru': 'понельник, вторник, среда, четверг, пятница, суббота, воскресение', 
-  'en': 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday'};
+lang = {'.ru': 'понельник, вторник, среда, четверг, пятница, суббота, воскресение', 
+  '.en': 'Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday'};
 console.log('На русском: ', lang['.ru']);
 console.log('На английском: ', lang['.en']);
 
